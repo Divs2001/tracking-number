@@ -78,6 +78,8 @@ curl -X GET "http://localhost:8080/next-tracking-number?origin_country_id=MY&des
   "tracking_number": "MYID2QEXSN32EO74",
   "created_at": "2025-09-19T21:59:01Z"
 }
+
+Note: All timestamps are returned in RFC 3339 format with UTC (Z) timezone for consistency.
 ```
 
 ---
