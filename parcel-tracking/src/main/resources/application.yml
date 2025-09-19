@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: parcel-tracking
+
+server:
+  port: ${PORT:8080}
+
+snowflake:
+  machine-id: ${MACHINE_ID:1}
